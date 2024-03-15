@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+  <h1>Cadastro</h1>
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+    <br>
+    <label for="celular">Celular com DDD:</label>
+    <input type="text" name="celular" id="celular" placeholder="85 99999-9999"> 
+    <label for="hora_desejada">Hora desejada:</label>
+    <input type="time" name="hora_desejada" id="hora_desejada">
+    <br>
+    <label for="seu_site">Seu site:</label>
+    <input type="text" name="seu_site" id="seu_site">
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" placeholder="**********" required>
+    <br>
+    <label for="data_nasc">Data de Nascimento:</label>
+    <input type="date" name="data_nasc" id="data_nasc">
+    <label for="cor_fav">Cor favorita:</label>
+    <input type="color" name="cor_fav" id="cor_fav">
+    <br>
+    <label for="qtd_filhos">Quantidade de filhos:</label>
+    <input type="number" name="qtd_filhos" id="qtd_filhos">
+    <label for="peso">Peso:  0</label>
+    <input type="range" name="peso" id="peso">
+    <label>200</label>
+    <br>
+    <br>
+    <label>Sexo:</label>
+    <br>
+    <input type="radio" name="sexo" id="masculino" value="masculino">
+    <label for="sexo">Masculino</label>
+    <br>
+    <input type="radio" name="sexo" id="feminino" value="masculino">
+    <label for="sexo">Feminino</label>
+    <br>
+    <label for="estado">Estado</label>
+    <select name="estado" id="estado">
+      <option value="">Selecione uma opção</option>
+      <option value="ce">CE</option>
+      <option value="rj">RJ</option>
+      <option value="df">DF</option>
+      <option value="es">ES</option>
+    </select>
+    <br>
+    <label for="mensagem">Mensagem:</label>
+    <br>
+    <textarea name="mensagem" id="mensagem" cols="70" rows="8">Escreva sua mensagem...</textarea>
+    <br>
+    <button>Enviar</button>
+    <input type="reset">
+  </form>
+<br>
+<br>
+  <a href="index.html">Retornar para a página inicial</a>
+</body>
+
+</html>
